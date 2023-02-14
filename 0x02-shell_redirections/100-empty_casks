@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name ".*" -empty -print -delete 
+find . -name ".*" -type f -empty -print -delete 
