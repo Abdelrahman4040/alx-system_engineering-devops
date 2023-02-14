@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name ".*" -type f -empty -print -delete 
+find . -name ".*" -type f -empty -print -delete | cut -d  -f 8 
