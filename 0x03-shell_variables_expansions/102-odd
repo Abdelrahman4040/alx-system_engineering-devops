@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 1~2p
+perl -lne 'print if $. % 2 == 1'
