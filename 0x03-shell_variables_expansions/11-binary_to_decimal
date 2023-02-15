@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e $((10#BINARY)) '\n' 
+echo $((10#$BINARY)) 
